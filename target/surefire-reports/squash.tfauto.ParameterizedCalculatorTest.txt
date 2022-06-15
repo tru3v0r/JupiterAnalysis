@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: squash.tfauto.ParameterizedCalculatorTest
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 0.099 s <<< FAILURE! - in squash.tfauto.ParameterizedCalculatorTest
+squash.tfauto.ParameterizedCalculatorTest.parameterizedCsvAddition(int, int)[2]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Le résultat ducalcul est incorrect. 5 + 8 n'est pas égal à 17 ==> expected: <true> but was: <false>
+	at squash.tfauto.ParameterizedCalculatorTest.parameterizedCsvAddition(ParameterizedCalculatorTest.java:23)
+
+squash.tfauto.ParameterizedCalculatorTest.parameterizedCsvAddition(int, int)[3]  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Le résultat ducalcul est incorrect. 10 + 12 n'est pas égal à 17 ==> expected: <true> but was: <false>
+	at squash.tfauto.ParameterizedCalculatorTest.parameterizedCsvAddition(ParameterizedCalculatorTest.java:23)
+
+squash.tfauto.ParameterizedCalculatorTest.parameterizedMultiplication(int)[1]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Le résultat ducalcul est incorrect. 2 * 4 n'est pas égal à 6 ==> expected: <true> but was: <false>
+	at squash.tfauto.ParameterizedCalculatorTest.parameterizedMultiplication(ParameterizedCalculatorTest.java:32)
+
+squash.tfauto.ParameterizedCalculatorTest.parameterizedMultiplication(int)[2]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Le résultat ducalcul est incorrect. 2 * 12 n'est pas égal à 6 ==> expected: <true> but was: <false>
+	at squash.tfauto.ParameterizedCalculatorTest.parameterizedMultiplication(ParameterizedCalculatorTest.java:32)
+
+squash.tfauto.ParameterizedCalculatorTest.parameterizedMultiplication(int)[4]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Le résultat ducalcul est incorrect. 2 * 8 n'est pas égal à 6 ==> expected: <true> but was: <false>
+	at squash.tfauto.ParameterizedCalculatorTest.parameterizedMultiplication(ParameterizedCalculatorTest.java:32)
+
+squash.tfauto.ParameterizedCalculatorTest.parameterizedAddition(int)[1]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Le résultat ducalcul est incorrect. 5 + 4 n'est pas égal à 17 ==> expected: <true> but was: <false>
+	at squash.tfauto.ParameterizedCalculatorTest.parameterizedAddition(ParameterizedCalculatorTest.java:15)
+
+squash.tfauto.ParameterizedCalculatorTest.parameterizedAddition(int)[3]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Le résultat ducalcul est incorrect. 5 + 3 n'est pas égal à 17 ==> expected: <true> but was: <false>
+	at squash.tfauto.ParameterizedCalculatorTest.parameterizedAddition(ParameterizedCalculatorTest.java:15)
+
+squash.tfauto.ParameterizedCalculatorTest.parameterizedAddition(int)[4]  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Le résultat ducalcul est incorrect. 5 + 8 n'est pas égal à 17 ==> expected: <true> but was: <false>
+	at squash.tfauto.ParameterizedCalculatorTest.parameterizedAddition(ParameterizedCalculatorTest.java:15)
+

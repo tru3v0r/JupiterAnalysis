@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: squash.tfauto.DynamicCalculatorTest
+-------------------------------------------------------------------------------
+Tests run: 22, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 0.042 s <<< FAILURE! - in squash.tfauto.DynamicCalculatorTest
+squash.tfauto.DynamicCalculatorTest.dynamicCalculatorTestIterable  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <8> but was: <12>
+	at squash.tfauto.DynamicCalculatorTest.lambda$dynamicCalculatorTestIterable$5(DynamicCalculatorTest.java:34)
+
+squash.tfauto.DynamicCalculatorTest.dynamicCalculatorTestIterator  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <8> but was: <12>
+	at squash.tfauto.DynamicCalculatorTest.lambda$dynamicCalculatorTestIterator$9(DynamicCalculatorTest.java:44)
+
+squash.tfauto.DynamicCalculatorTest.dynamicEvenNumberTestStream  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at squash.tfauto.DynamicCalculatorTest.lambda$dynamicEvenNumberTestStream$13(DynamicCalculatorTest.java:54)
+
+squash.tfauto.DynamicCalculatorTest.dynamicEvenNumberTestStream  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at squash.tfauto.DynamicCalculatorTest.lambda$dynamicEvenNumberTestStream$13(DynamicCalculatorTest.java:54)
+
+squash.tfauto.DynamicCalculatorTest.dynamicEvenNumberTestStream  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at squash.tfauto.DynamicCalculatorTest.lambda$dynamicEvenNumberTestStream$13(DynamicCalculatorTest.java:54)
+
+squash.tfauto.DynamicCalculatorTest.dynamicEvenNumberTestStream  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at squash.tfauto.DynamicCalculatorTest.lambda$dynamicEvenNumberTestStream$13(DynamicCalculatorTest.java:54)
+
+squash.tfauto.DynamicCalculatorTest.dynamicEvenNumberTestStream  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at squash.tfauto.DynamicCalculatorTest.lambda$dynamicEvenNumberTestStream$13(DynamicCalculatorTest.java:54)
+
+squash.tfauto.DynamicCalculatorTest.dynamicCalculatorTestCollection  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <8> but was: <12>
+	at squash.tfauto.DynamicCalculatorTest.lambda$dynamicCalculatorTestCollection$1(DynamicCalculatorTest.java:24)
+

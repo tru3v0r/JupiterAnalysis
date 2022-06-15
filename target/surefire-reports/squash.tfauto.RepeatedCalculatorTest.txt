@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: squash.tfauto.RepeatedCalculatorTest
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 0.034 s <<< FAILURE! - in squash.tfauto.RepeatedCalculatorTest
+squash.tfauto.RepeatedCalculatorTest.RepeatedAdditionFailure(RepetitionInfo)[1]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Le résultat ducalcul1/3 est incorrect. 5 + 8 n'est pas égal à 17 ==> expected: <true> but was: <false>
+	at squash.tfauto.RepeatedCalculatorTest.RepeatedAdditionFailure(RepeatedCalculatorTest.java:22)
+
+squash.tfauto.RepeatedCalculatorTest.RepeatedAdditionFailure(RepetitionInfo)[2]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Le résultat ducalcul2/3 est incorrect. 5 + 8 n'est pas égal à 17 ==> expected: <true> but was: <false>
+	at squash.tfauto.RepeatedCalculatorTest.RepeatedAdditionFailure(RepeatedCalculatorTest.java:22)
+
+squash.tfauto.RepeatedCalculatorTest.RepeatedAdditionFailure(RepetitionInfo)[3]  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Le résultat ducalcul3/3 est incorrect. 5 + 8 n'est pas égal à 17 ==> expected: <true> but was: <false>
+	at squash.tfauto.RepeatedCalculatorTest.RepeatedAdditionFailure(RepeatedCalculatorTest.java:22)
+
+squash.tfauto.RepeatedCalculatorTest.repeatedMultiplicationFailure(RepetitionInfo)[1]  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Le résultat ducalcul1/3 est incorrect. 2 * 4 n'est pas égal à 6 ==> expected: <true> but was: <false>
+	at squash.tfauto.RepeatedCalculatorTest.repeatedMultiplicationFailure(RepeatedCalculatorTest.java:42)
+
+squash.tfauto.RepeatedCalculatorTest.repeatedMultiplicationFailure(RepetitionInfo)[2]  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Le résultat ducalcul2/3 est incorrect. 2 * 4 n'est pas égal à 6 ==> expected: <true> but was: <false>
+	at squash.tfauto.RepeatedCalculatorTest.repeatedMultiplicationFailure(RepeatedCalculatorTest.java:42)
+
+squash.tfauto.RepeatedCalculatorTest.repeatedMultiplicationFailure(RepetitionInfo)[3]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Le résultat ducalcul3/3 est incorrect. 2 * 4 n'est pas égal à 6 ==> expected: <true> but was: <false>
+	at squash.tfauto.RepeatedCalculatorTest.repeatedMultiplicationFailure(RepeatedCalculatorTest.java:42)
+

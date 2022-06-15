@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: squash.tfauto.CalculatorTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.055 s <<< FAILURE! - in squash.tfauto.CalculatorTest
+squash.tfauto.CalculatorTest.multFailure  Time elapsed: 0.036 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Le résultat du calcul est incorrect. 2 * 4 n'est pas égal à 6 ==> expected: <true> but was: <false>
+	at squash.tfauto.CalculatorTest.multFailure(CalculatorTest.java:29)
+
